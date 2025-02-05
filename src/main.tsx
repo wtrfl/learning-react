@@ -6,6 +6,6 @@ import Todo from './useReducer/todo.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Todo />
+    <App />
   </StrictMode>,
 )

@@ -1,7 +1,5 @@
 import { useReducer, useState } from "react";
 
-// todo: fix tailwind config
-
 interface Todo {
     id: string,
     name: string,
