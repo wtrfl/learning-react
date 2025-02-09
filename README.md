@@ -4,4 +4,10 @@ hello, i am waterfall, and i've made it my mission to bridge my knowledge gaps i
 
 each project is sorted in it's own folder in src/
 
-there will be a homepage soon!
+look out for the home page, coming soon!
+
+more info:
+all projects are built with
+- react.js with vite
+- tailwind css
+- typescript
