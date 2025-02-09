@@ -1,0 +1,62 @@
+[
+    {
+        "id": "57342623478590234",
+        "name": "Burger King",
+        "amount": 17.20,
+        "category": "food"
+    },
+    {
+        "id": "83920482309482034",
+        "name": "Amazon Purchase",
+        "amount": 56.75,
+        "category": "shopping"
+    },
+    {
+        "id": "98327498237498237",
+        "name": "Electric Bill",
+        "amount": 89.99,
+        "category": "bills"
+    },
+    {
+        "id": "23478923748923749",
+        "name": "Netflix Subscription",
+        "amount": 15.49,
+        "category": "entertainment"
+    },
+    {
+        "id": "89723489723489723",
+        "name": "Grocery Shopping",
+        "amount": 123.50,
+        "category": "necessity"
+    },
+    {
+        "id": "98237498237498237",
+        "name": "Movie Tickets",
+        "amount": 25.00,
+        "category": "entertainment"
+    },
+    {
+        "id": "23498237498237492",
+        "name": "Spotify Premium",
+        "amount": 9.99,
+        "category": "entertainment"
+    },
+    {
+        "id": "87429837498237498",
+        "name": "Gas Refill",
+        "amount": 42.30,
+        "category": "necessity"
+    },
+    {
+        "id": "23984723984723984",
+        "name": "McDonald’s",
+        "amount": 12.15,
+        "category": "food"
+    },
+    {
+        "id": "12348723487234872",
+        "name": "Water Bill",
+        "amount": 47.80,
+        "category": "bills"
+    }
+]
