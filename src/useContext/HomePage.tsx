@@ -14,7 +14,7 @@ export default function HomePage() {
                     ))}
                 </div>
                 <div className="flex justify-center">
-                    <button className="px-2 py-2 bg-gray-300 rounded-md cursor-pointer hover:bg-gray-500">Dark Mode</button>
+                    <button className="px-2 py-2 bg-gray-300 rounded-md cursor-pointer hover:bg-gray-500" onClick={() => setTheme(!theme)}>{theme ? 'Light' : 'Dark'} Mode</button>
                     <button className="px-2 py-2 bg-blue-500 rounded-md cursor-pointer hover:bg-blue-700">Log in</button>
                 </div>
             </div>
