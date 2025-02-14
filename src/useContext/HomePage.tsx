@@ -19,17 +19,18 @@ export default function HomePage() {
                 </div>
             </div>
             <div className="flex flex-grow justify-center items-center">
-                <div className="flex flex-col gap-1">
-                    <span className="text-2xl">We are building the city of dreams.</span>
+                <div className="flex flex-col gap-4">
+                    <span className="text-[36pt] w-[400px]">We are building the city of dreams.</span>
                     <span className="w-[300px] text-gray-800 font-light">
-                        Third spaces, equal opportunity social services, robust mass transit systems, and daily essentials, all within a gorgeous 7 minute* walk.
-                        <br /><br /><div className="inline-block bg-blue-500 px-2 text-white text-sm font-semibold rounded-sm">NEW</div> We are now offering subsidies to land-owners who invest early.
+                        We're setting a new standard for urban living designed to maximize quality of life—where vibrant third spaces, essential services, and world-class transit are all within a beautiful 7-minute walk.
+                        <br /><br /><div className="inline-block bg-blue-500 px-2 text-white text-sm font-semibold rounded-sm">NEW</div> Early investors have a chance to shape the future. We are now offering exclusive incentives for landowners who invest in Phase 1. Secure your place in a city built for the future.
                     </span>
                     <div className="flex gap-2 items-center">
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Join Us</button>
                         <span>Read our story {'->'}</span>
                     </div>
                 </div>
+                <img src="futuristic_city.png" className="w-[600px] rounded" />
             </div>
         </div>
     )
