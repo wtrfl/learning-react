@@ -88,11 +88,12 @@ function TabSwitcher({ activeTab, setTab }: TabSwitcherProps) {
         <div className="flex gap-1 my-2">
             {tabs.map(tab => {
                 if (tab === activeTab) return (
-                    <div className="flex-1 text-sm bg-blue-400 text-white text-center font-semibold py-1 rounded-2xl transition-all">{tab}</div>
+                    <div key={tab} className="flex-1 text-sm bg-blue-400 text-white text-center font-semibold py-1 rounded-2xl transition-all">{tab}</div>
                 )
 
                 return (
                     <div
+                        key={tab}
                         className="flex-1 text-sm bg-gray-200 text-gray-600 text-center py-1 cursor-pointer rounded-2xl transition-all"
                         onClick={() => setTab(tab)}
                     >{tab}</div>
